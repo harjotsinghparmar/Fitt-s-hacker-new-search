@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "HN searchtop",
+  "description":"Moves the search box up top of hacker news, search where it needs to be. Icon is taken from Flaticon website, is not my property.",
+ "version": "0.1",
+    "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+  {
+    "matches": [
+      "*://news.ycombinator.com/*"
+    ],
+    "js": ["content.js"]
+  }
+]
+}
