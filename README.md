@@ -1,4 +1,4 @@
-# Fitts-hacker-new-search
+# Nav-Bar-Hacker-News-Search
 Alright! its a quick little hack to put a search box up top on hacker news.
 
   **Backstory:**  
